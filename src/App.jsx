@@ -15,6 +15,7 @@ export default function App() {
   const [loading, setLoading] = useState(false);
   const [notFound, setNotFound] = useState(false);
 
+  // console.log(searchGif);
   /// BÚSQUEDA DE GIFS ///
   useEffect(() => {
     if (showGifs) {
@@ -24,9 +25,12 @@ export default function App() {
       );
       peticion
         .then((respuesta) => {
+          console.log("respuesta", respuesta)
+
           return respuesta.json();
         })
         .then((data) => {
+          console.log("data", data)
           data.data.length === 0 ? setNotFound(true) : setNotFound(false);
           setLoading(false);
           setGifs(data.data);
@@ -59,7 +63,7 @@ export default function App() {
 
   /// GIFS SUGERIDOS ///
   useEffect(() => {
-    if (searchGif.length > -1) {
+    if (searchGif.length > 0) {
       let peticion = fetch(
         `https://api.giphy.com/v1/gifs/search/tags?api_key=Q0nFNRkt16lgFlCho6MP1OOk3lMnu0tB&limit=5&q=${searchGif}`
       );

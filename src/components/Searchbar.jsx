@@ -35,9 +35,10 @@ const Searchbar = (props) => {
 
       {/* BOTÓN DE BÚQUEDA  */}
       <button
-        onClick={() => {
+        onClick={(e) => {
           props.setShowGifs(true);
           props.setAutocomplete(false);
+          e.preventDefault();
         }}
         className={`${
           props.darkMode ? "Darksearch-button" : "Lightsearch-button"
@@ -48,13 +49,14 @@ const Searchbar = (props) => {
 
       {/* BOTÓN DE BORRADO  */}
       <button
-        onClick={() => {
+        onClick={(e) => {
           props.setAutocomplete(false);
           props.setShowGifs(false);
           props.setGifs([]);
           props.setSearchGif("");
           props.setLoading(false);
           props.setNotFound(false);
+          e.preventDefault();
         }}
         className={`${
           props.darkMode ? "Darkclear-button" : "Lightclear-button"
