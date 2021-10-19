@@ -3,12 +3,10 @@ import ImgSearchBar from "../images/ilustra_header.svg";
 
 const Searchbar = (props) => {
   let actualizaSearchGif = (e) => {
-    e.preventDefault();
     props.setLoading(false);
     return props.setSearchGif(e.target.value);
   };
   function sugerenciaHandler(e) {
-    e.preventDefault();
     props.setSearchGif(e.target.innerText);
     props.setAutocomplete(false);
     props.setShowGifs(true);
