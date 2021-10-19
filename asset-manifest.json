@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/SprintProject-3-Acamica/static/css/main.344bb383.chunk.css",
+    "main.js": "/SprintProject-3-Acamica/static/js/main.7d6b3276.chunk.js",
+    "main.js.map": "/SprintProject-3-Acamica/static/js/main.7d6b3276.chunk.js.map",
+    "runtime-main.js": "/SprintProject-3-Acamica/static/js/runtime-main.c9bb4ec8.js",
+    "runtime-main.js.map": "/SprintProject-3-Acamica/static/js/runtime-main.c9bb4ec8.js.map",
+    "static/js/2.829f23c3.chunk.js": "/SprintProject-3-Acamica/static/js/2.829f23c3.chunk.js",
+    "static/js/2.829f23c3.chunk.js.map": "/SprintProject-3-Acamica/static/js/2.829f23c3.chunk.js.map",
+    "index.html": "/SprintProject-3-Acamica/index.html",
+    "static/css/main.344bb383.chunk.css.map": "/SprintProject-3-Acamica/static/css/main.344bb383.chunk.css.map",
+    "static/js/2.829f23c3.chunk.js.LICENSE.txt": "/SprintProject-3-Acamica/static/js/2.829f23c3.chunk.js.LICENSE.txt",
+    "static/media/ilustra_header.9d4669b1.svg": "/SprintProject-3-Acamica/static/media/ilustra_header.9d4669b1.svg",
+    "static/media/logo-desktop.2f122678.svg": "/SprintProject-3-Acamica/static/media/logo-desktop.2f122678.svg",
+    "static/media/logo-mobile-modo-noct.47e214b1.svg": "/SprintProject-3-Acamica/static/media/logo-mobile-modo-noct.47e214b1.svg",
+    "static/media/notfound.ff6b1eea.jpg": "/SprintProject-3-Acamica/static/media/notfound.ff6b1eea.jpg",
+    "static/media/three-dots.b98a8c76.svg": "/SprintProject-3-Acamica/static/media/three-dots.b98a8c76.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c9bb4ec8.js",
+    "static/js/2.829f23c3.chunk.js",
+    "static/css/main.344bb383.chunk.css",
+    "static/js/main.7d6b3276.chunk.js"
+  ]
+}
