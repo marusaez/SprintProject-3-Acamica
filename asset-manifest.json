@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/SprintProject-3-Acamica/static/css/main.344bb383.chunk.css",
-    "main.js": "/SprintProject-3-Acamica/static/js/main.e221f428.chunk.js",
-    "main.js.map": "/SprintProject-3-Acamica/static/js/main.e221f428.chunk.js.map",
+    "main.js": "/SprintProject-3-Acamica/static/js/main.35a171fa.chunk.js",
+    "main.js.map": "/SprintProject-3-Acamica/static/js/main.35a171fa.chunk.js.map",
     "runtime-main.js": "/SprintProject-3-Acamica/static/js/runtime-main.c9bb4ec8.js",
     "runtime-main.js.map": "/SprintProject-3-Acamica/static/js/runtime-main.c9bb4ec8.js.map",
     "static/js/2.829f23c3.chunk.js": "/SprintProject-3-Acamica/static/js/2.829f23c3.chunk.js",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.c9bb4ec8.js",
     "static/js/2.829f23c3.chunk.js",
     "static/css/main.344bb383.chunk.css",
-    "static/js/main.e221f428.chunk.js"
+    "static/js/main.35a171fa.chunk.js"
   ]
 }
