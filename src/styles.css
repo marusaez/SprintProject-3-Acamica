@@ -1,0 +1,208 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.AppLight {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  color: #6809e1;
+  margin: -10px -10px -10px -10px;
+  transition-duration: 0.4s;
+}
+.AppDark {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  color: #ffffff;
+  margin: 0 auto;
+  margin: -10px -10px -10px -10px;
+  background-color: rgb(55, 55, 55);
+  transition-duration: 0.4s;
+}
+.Header {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+.light-mode {
+  background-color: white;
+  cursor: pointer;
+  padding: 0 20px 0 20px;
+  color: #6809e1;
+  border-radius: 60px;
+  border: 1px solid #6809e1;
+  font-size: 14px;
+  transition-duration: 0.4s;
+}
+.light-mode:hover {
+  background-color: #dabeff;
+  padding: 0 18px 0 18px;
+  font-size: 15px;
+}
+.dark-mode {
+  background-color: rgb(55, 55, 55);
+  cursor: pointer;
+  padding: 0 20px 0 20px;
+  color: #ffffff;
+  border-radius: 60px;
+  border: 1px solid #ffffff;
+  font-size: 14px;
+  transition-duration: 0.4s;
+}
+.dark-mode:hover {
+  background-color: #868585;
+  padding: 0 18px 0 18px;
+  font-size: 15px;
+}
+
+.SearchDiv {
+  margin-top: 3%;
+}
+.SearchDiv div {
+  margin-bottom: -14px;
+}
+.SearchTitle {
+  font-size: 36px;
+}
+.SearchTitleBold {
+  font-style: bolder;
+}
+.LightInputSearch {
+  height: 25px;
+  width: 300px;
+  padding: 6px 31px;
+  font-size: 16px;
+  border-radius: 60px 0 0 60px;
+}
+.DarkInputSearch {
+  height: 25px;
+  width: 300px;
+  padding: 6px 31px;
+  font-size: 16px;
+  border: solid 1px white;
+  border-radius: 60px 0 0 60px;
+}
+
+.Lightsearch-button {
+  background-color: #6809e1;
+  padding: 12px 25px;
+  font-size: 14px;
+  margin: 10px 0px 0px 0px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  height: 41px;
+  border: 1px solid #000000;
+  color: white;
+}
+.Lightsearch-button:hover {
+  background-color: #dabeff;
+  color: black;
+}
+.Darksearch-button {
+  background-color: rgb(95, 95, 95);
+  padding: 12px 25px;
+  font-size: 14px;
+  margin: 10px 0px 0px 0px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  height: 41px;
+  border: 0.5px solid #ffffff;
+  color: white;
+}
+.Darksearch-button:hover {
+  background-color: #868585;
+}
+.Lightclear-button {
+  background-color: #6809e1;
+  padding: 12px 25px;
+  font-size: 14px;
+  margin: 10px 0px 0px 0px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  border-radius: 0 60px 60px 0;
+  height: 41px;
+  border: 1px solid #000000;
+  color: white;
+}
+.Lightclear-button:hover {
+  background-color: #dabeff;
+  color: black;
+}
+.Darkclear-button {
+  background-color: rgb(95, 95, 95);
+  color: white;
+  padding: 12px 25px;
+  font-size: 14px;
+  margin: 10px 0px 0px 0px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  border-radius: 0 60px 60px 0;
+  height: 41px;
+  border: 0.5px solid #ffffff;
+}
+.Darkclear-button:hover {
+  background-color: #868585;
+}
+.loading {
+  background-color: #6809e1;
+}
+.Results {
+  margin-top: 3%;
+  font-size: 14px;
+  display: block;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-self: center;
+  padding-bottom: 20px;
+}
+.notFound h2 {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.notFound img {
+  margin-top: 35px;
+  width: 300px;
+  height: 250px;
+}
+.gallery-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 900px;
+  margin: 0 auto;
+}
+.gifStyle {
+  width: 160px;
+  height: 160px;
+  margin: 10px 10px;
+}
+.autocompletacion {
+  position: absolute;
+  background-color: #e4e4e4;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 465px;
+  border-radius: 0 0 30px 30px;
+}
+.LightSugerencias {
+  padding: 3px;
+  margin: 10px 0 10px 0;
+}
+.LightSugerencias:hover {
+  cursor: pointer;
+  transition-duration: 0.4s;
+  background-color: #dabeff;
+}
+.DarkSugerencias {
+  padding: 3px;
+  margin: 10px 0 10px 0;
+  color: black;
+}
+.DarkSugerencias:hover {
+  cursor: pointer;
+  transition-duration: 0.4s;
+  background-color: #dabeff;
+}
