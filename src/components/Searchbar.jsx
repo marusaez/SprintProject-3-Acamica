@@ -14,7 +14,7 @@ const Searchbar = (props) => {
   }
 
   return (
-    <form className="SearchDiv">
+    <form className="SearchDiv" onSubmit={actualizaSearchGif}>
       <div>
         <h1 className="SearchTitle">
           ¡Inspírate y busca los mejores
